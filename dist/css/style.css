@@ -14,7 +14,29 @@ html {
 }
 
 body {
-  background-color: red;
   height: 100%;
+}
+
+.flex-body-1 {
+  background-color: #4FC3F7;
+  height: 80vh;
+}
+
+.flex-body-2 {
+  background-color: #81D4FA;
+  height: 80vh;
+}
+
+.flex-body-3 {
+  background-color: #B3E5FC;
+  height: 80vh;
+}
+
+.new-movies {
+  height: 70%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */
