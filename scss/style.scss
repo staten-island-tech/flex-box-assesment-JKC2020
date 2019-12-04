@@ -1,3 +1,4 @@
+@import"./_variables.scss";
 @import "./_fonts.scss";
 @import "./header";
 $colors: (
@@ -23,6 +24,5 @@ body {
   height: 80vh;
 }
 .new-movies{
-  height: 70%;
-  flex-direction: row;
+  height: 20rem;
 }
