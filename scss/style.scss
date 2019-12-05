@@ -16,13 +16,16 @@ body {
   height: 80vh;
 }
 .flex-body-2{
+  display: flex;
   background-color: #81D4FA;
   height: 80vh;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .flex-body-3{
   background-color: #B3E5FC;
   height: 80vh;
 }
 .new-movies{
-  height: 20rem;
+  height: 40rem;
 }

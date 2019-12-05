@@ -23,8 +23,18 @@ body {
 }
 
 .flex-body-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #81D4FA;
   height: 80vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .flex-body-3 {
@@ -33,6 +43,6 @@ body {
 }
 
 .new-movies {
-  height: 20rem;
+  height: 40rem;
 }
 /*# sourceMappingURL=style.css.map */
