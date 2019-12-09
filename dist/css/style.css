@@ -14,8 +14,24 @@ html {
 }
 
 .flex-body-1 {
+  background-size: cover;
+  background-image: linear-gradient(to bottom,rgba(46, 167, 214, 0.1)),rgba(31, 162, 167, 0.2), url(img/Castle.jpg);
+  backdrop-filter: ;
   background-color: #4FC3F7;
   height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-body-2 {
@@ -48,12 +64,9 @@ html {
 
 #Toplog {
   height: 20vh;
-  position: relative;
 }
 
 #scale {
   width: 60%;
-  position: absolute;
-  position: 10, 20 ,10, 50;
 }
 /*# sourceMappingURL=style.css.map */

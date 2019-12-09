@@ -8,8 +8,14 @@ html {
 }
 
 .flex-body-1{
+  background-size: cover;
+  background-image: url(img/Castle.jpg);
   background-color:#4FC3F7;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .flex-body-2{
   display: flex;
@@ -29,10 +35,7 @@ html {
 }
 #Toplog{
   height: 20vh;
-  position: relative;
 }
 #scale{
   width: 60%;
-  position: absolute;
-  position: 10, 20 ,10, 50;
 }
