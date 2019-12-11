@@ -15,8 +15,9 @@ html {
 
 .flex-body-1 {
   background-size: cover;
-  background-image: linear-gradient(to bottom,rgba(46, 167, 214, 0.1)),rgba(31, 162, 167, 0.2), url(img/Castle.jpg);
-  backdrop-filter: ;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(129, 212, 250, 0.5)), to(rgba(129, 212, 250, 0.5))), url(img/Castle.jpg);
+  background-image: linear-gradient(rgba(129, 212, 250, 0.5), rgba(129, 212, 250, 0.5)), url(img/Castle.jpg);
+  background-position: center;
   background-color: #4FC3F7;
   height: 90vh;
   display: -webkit-box;
@@ -38,7 +39,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #81D4FA;
+  background-color: color(Hue);
   height: 80vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -50,7 +51,6 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: padd;
 }
 
 .flex-body-3 {
