@@ -15,10 +15,9 @@ html {
 
 .flex-body-1 {
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(129, 212, 250, 0.5)), to(rgba(129, 212, 250, 0.5))), url(img/Castle.jpg);
-  background-image: linear-gradient(rgba(129, 212, 250, 0.5), rgba(129, 212, 250, 0.5)), url(img/Castle.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 138, 192, 0.502)), to(rgba(103, 200, 245, 0.5))), url(img/Castle.jpg);
+  background-image: linear-gradient(rgba(22, 138, 192, 0.502), rgba(103, 200, 245, 0.5)), url(img/Castle.jpg);
   background-position: center;
-  background-color: #4FC3F7;
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,7 +38,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: color(Hue);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103, 200, 245, 0.8)), to(rgba(183, 228, 248, 0.8)));
+  background: linear-gradient(rgba(103, 200, 245, 0.8), rgba(183, 228, 248, 0.8));
   height: 80vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -54,7 +54,20 @@ html {
 }
 
 .flex-body-3 {
-  background-color: #B3E5FC;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(183, 228, 248, 0.8)), color-stop(rgba(183, 228, 248, 0.8)), to(rgba(190, 80, 80, 0.2)));
+  background: linear-gradient(rgba(183, 228, 248, 0.8), rgba(183, 228, 248, 0.8), rgba(190, 80, 80, 0.2));
+  height: 80vh;
+}
+
+.flex-body-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 80, 80, 0.2)), color-stop(rgba(190, 80, 80, 0.5)), to(rgba(194, 21, 21, 0.7)));
+  background: linear-gradient(rgba(190, 80, 80, 0.2), rgba(190, 80, 80, 0.5), rgba(194, 21, 21, 0.7));
+  height: 80vh;
+}
+
+.flex-body-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(194, 21, 21, 0.7)), to(rgba(194, 21, 21, 0.9)));
+  background: linear-gradient(rgba(194, 21, 21, 0.7), rgba(194, 21, 21, 0.9));
   height: 80vh;
 }
 
