@@ -30,13 +30,11 @@ html {
   height: 80vh;
 }
 .flex-body-4{
-  background: linear-gradient(rgba(190, 80, 80, 0.2),rgba(190, 80, 80, 0.5),rgba(194, 21, 21, 0.7));
+  display: flex;
+  background: linear-gradient(rgba(190, 80, 80, 0.2),rgba(190, 80, 80, 0.5),rgba(194, 21, 21, 0.7),rgba(194, 21, 21, 0.8),rgba(194, 21, 21, 0.9));
   height: 80vh;
 }
-.flex-body-5{
-  background: linear-gradient(rgba(194, 21, 21, 0.7),rgba(194, 21, 21, 0.9));
-  height: 80vh;
-}
+
 .new-movies{
   height: 40rem;
 }
@@ -45,4 +43,15 @@ html {
 }
 #scale{
   width: 60%;
+}
+#Mlogo{
+  height: 4rem;
+}
+.MCU{
+  height: 20rem;
+}
+#series{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40rem;
 }

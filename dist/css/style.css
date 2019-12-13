@@ -60,14 +60,11 @@ html {
 }
 
 .flex-body-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 80, 80, 0.2)), color-stop(rgba(190, 80, 80, 0.5)), to(rgba(194, 21, 21, 0.7)));
-  background: linear-gradient(rgba(190, 80, 80, 0.2), rgba(190, 80, 80, 0.5), rgba(194, 21, 21, 0.7));
-  height: 80vh;
-}
-
-.flex-body-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(194, 21, 21, 0.7)), to(rgba(194, 21, 21, 0.9)));
-  background: linear-gradient(rgba(194, 21, 21, 0.7), rgba(194, 21, 21, 0.9));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 80, 80, 0.2)), color-stop(rgba(190, 80, 80, 0.5)), color-stop(rgba(194, 21, 21, 0.7)), color-stop(rgba(194, 21, 21, 0.8)), to(rgba(194, 21, 21, 0.9)));
+  background: linear-gradient(rgba(190, 80, 80, 0.2), rgba(190, 80, 80, 0.5), rgba(194, 21, 21, 0.7), rgba(194, 21, 21, 0.8), rgba(194, 21, 21, 0.9));
   height: 80vh;
 }
 
@@ -81,5 +78,22 @@ html {
 
 #scale {
   width: 60%;
+}
+
+#Mlogo {
+  height: 4rem;
+}
+
+.MCU {
+  height: 20rem;
+}
+
+#series {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 40rem;
 }
 /*# sourceMappingURL=style.css.map */
