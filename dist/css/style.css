@@ -98,8 +98,6 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -o-object-fit: cover;
-     object-fit: cover;
   position: absolute;
   left: 70rem;
   top: 10rem;
