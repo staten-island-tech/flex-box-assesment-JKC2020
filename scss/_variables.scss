@@ -1,3 +1,6 @@
+@function color($color-name) {
+    @return map-get($color, $color-name);
+}
 $colors:(
     Huee:#4fc3f7,
 );
