@@ -2,11 +2,6 @@ html {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.header {
-  background-color: blue;
-  height: 30vh;
-}
-
 html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -66,6 +61,8 @@ html {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(190, 80, 80, 0.2)), color-stop(rgba(190, 80, 80, 0.5)), color-stop(rgba(194, 21, 21, 0.7)), color-stop(rgba(194, 21, 21, 0.8)), to(rgba(194, 21, 21, 0.9)));
   background: linear-gradient(rgba(190, 80, 80, 0.2), rgba(190, 80, 80, 0.5), rgba(194, 21, 21, 0.7), rgba(194, 21, 21, 0.8), rgba(194, 21, 21, 0.9));
   height: 80vh;
+  padding: 3rem;
+  position: relative;
 }
 
 .new-movies {
@@ -85,15 +82,26 @@ html {
 }
 
 .MCU {
-  height: 20rem;
+  height: 16rem;
 }
 
 #series {
+  width: 60rem;
+  height: 35rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 40rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 70rem;
+  top: 10rem;
 }
 /*# sourceMappingURL=style.css.map */

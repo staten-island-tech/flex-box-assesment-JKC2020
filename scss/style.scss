@@ -1,6 +1,5 @@
 @import "./_variables.scss";
 @import "./_fonts.scss";
-@import "./header";
 
 html {
   font-size: 62.5%;
@@ -33,6 +32,8 @@ html {
   display: flex;
   background: linear-gradient(rgba(190, 80, 80, 0.2),rgba(190, 80, 80, 0.5),rgba(194, 21, 21, 0.7),rgba(194, 21, 21, 0.8),rgba(194, 21, 21, 0.9));
   height: 80vh;
+  padding: 3rem;
+  position: relative;
 }
 
 .new-movies{
@@ -48,10 +49,16 @@ html {
   height: 4rem;
 }
 .MCU{
-  height: 20rem;
+  height: 16rem;
 }
 #series{
+  width: 60rem;
+  height: 35rem;
   display: flex;
-  flex-wrap: wrap;
-  width: 40rem;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  object-fit: cover;
+  position: absolute;
+  left: 70rem;
+  top: 10rem;
 }
