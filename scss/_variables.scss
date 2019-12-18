@@ -1,6 +1,8 @@
 @function color($color-name) {
     @return map-get($color, $color-name);
 }
-$colors:(
-    Huee:#4fc3f7,
-);
+$color: (
+    huee:rgba(183, 228, 248, 0.8),
+    hue:rgba(190, 80, 80, 0.2)
+)
+
